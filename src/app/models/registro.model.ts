@@ -29,12 +29,12 @@ export class Registro {
             case 'http':
                 this.type = 'http';
                 this.icon = 'globe';
-            break;
+                break;
 
             case 'geo':
                 this.type = 'geo';
                 this.icon = 'pin';
-            break;
+                break;
 
             default:
                 this.type = 'No reconocido';
