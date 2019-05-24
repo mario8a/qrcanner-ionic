@@ -60,6 +60,10 @@ export class DataLocalService {
         //abrir el navegador web
         this.iab.create(registro.text, '_system');
         break;
+
+        case 'geo':
+        this.navCtrl.navigateForward(`/tabs/tab2/mapa/${registro.text}`);
+        break;
     }
 
   }
